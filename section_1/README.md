@@ -5,6 +5,8 @@ Our problem is to predict the price of Renfe AVE ticket, which is regression. In
 
 ## Data
 
+This is the data of 5 rows.
+
 ||insert_date|origin|destination|start_date|end_date|train_type	price|train_class|fare
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 0|2019-04-11|21:49:46|MADRID|BARCELONA|2019-04-18|05:50:00|2019-04-18|08:55:00|AVE|68.95|Preferente|Promo
@@ -24,5 +26,9 @@ Our problem is to predict the price of Renfe AVE ticket, which is regression. In
 9. fare: ticket fare, round trip, etc.
 
 ## Problem
+
+There are some problems in the dataset. First, the features of inser_date, start_date and end_date are time series. Second, the features of origin, destination, train type, train_class and fare are categorical. Third, there are missing data in the price, train_class and fare. Final, the dataset which is too big is 7644664 rows x 52 columns, so we have to spend a lot of time running the code. 
+
+## Solution
 
 
