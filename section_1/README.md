@@ -40,8 +40,8 @@ There are some problems in the dataset.
   1. We divid the feature of insert_date to the features of month, day, hour, minute and second. We don’t need the feature of year because all features of year are the same.
   2. The features of start_date and end_date are time series, so we change the datetime to hour, which we calculate between start_date and end_date to represent the features of start_date and end_date because all of people spent less than one day taking the train.
 ### Categorical
-  RandomForest: Directly convert into code
-  Linear regression: one hot encoding
+  1. RandomForest: Directly convert into code
+  2. Linear regression: one hot encoding
 ### Missing data
   We drop the data which has empty value because there are at least 70000000x52 data in the dataset, which doesn’t affect the result a lot. Moreover, for the price part, we fill the mean of price.
 ### Feature selection
@@ -55,15 +55,12 @@ There are some problems in the dataset.
 ## Result
 ### Linear Regression with Ridge
 ![Ridge_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_result.png)
-Learning Curve
 ![Ridge_curve](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_curve.png)
 ### Linear Regression with Lasso
 ![Lasso_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Lasso_result.png)
-Learning Curve
 ![Lasso_curve](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Lasso_curve.png)
 ### Random Forest Regression
 ![Random_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/Random_result.png)
-Learning Curve
 ![Random_curve](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/Random_curve.png)
 ### Comparation
 ||LR with Ridge|LR with Lasso|Random Forest|
