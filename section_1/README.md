@@ -1,7 +1,7 @@
 # Predict the price of Renfe AVE ticket
 
 ## Description
-Our problem is to predict the price of Renfe AVE ticket, which is regression. In fact, the ticket of train is basically influenced by distance and time, but perhaps there are other reasons which affect the price of ticket. Moreover, there are no particle rules which compute the price. Thus, we want to understand how company predict the price of tickets. Furthermore, there are some problems in the dataset. First, the features of inser_date, start_date and end_date are time series. Second, the features of origin, destination, train type, train_class and fare are categorical. Third, there are missing data in the price, train_class and fare. Final, the dataset which is too big is 7644664 rows x 52 columns, so we have to spend a lot of time running the code. Therefore, our goal is to solve these problems and obtain the high accuracy of prediction.
+Our problem is to predict the price of Renfe AVE ticket, which is regression. In fact, the ticket of train is basically influenced by distance and time, but perhaps there are other reasons which affect the price of ticket. Moreover, there are no particle rules which compute the price. Thus, we want to understand how company predict the price of tickets. Furthermore, there are some problems in the dataset.
 
 ## Data
 
