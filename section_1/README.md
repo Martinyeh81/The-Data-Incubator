@@ -33,29 +33,17 @@ There are some problems in the dataset.
 3. Missing data: price, train_class and fare. 
 4. The dataset which is too big is 7644664 rows x 52 columns. 
 
-||Columns type|
-|---|---|
-|insert_date|datetime64[ns]|
-|origin|object|
-|destination|object|
-|start_date|datetime64[ns]|
-|end_date|datetime64[ns]|
-|train_type|object|
-|price|float64|
-|train_class|object|
-|fare|object|
-
-||Number of missing data|
-|---|---|
-|insert_date|0|
-|origin|0|
-|destination|0|
-|start_date|0|
-|end_date|0|
-|train_type|0|
-|price|573121|
-|train_class|26690|
-|fare|26690|
+||Columns type|Number of missing data|
+|---|---|---|
+|insert_date|datetime64[ns]|0|
+|origin|object|0|
+|destination|object|0|
+|start_date|datetime64[ns]|0|
+|end_date|datetime64[ns]|0|
+|train_type|object|0|
+|price|float64|573121|
+|train_class|object|26690|
+|fare|object|26690|
 
 ## Preprocessing
 ### Number of Data
