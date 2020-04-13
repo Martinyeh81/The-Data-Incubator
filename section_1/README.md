@@ -7,7 +7,7 @@ Our problem is to predict the price of Renfe AVE ticket, which is regression. In
 
 This is the data of 5 rows.
 
-||insert_date|origin|destination|start_date|end_date|train_type	price|train_class|fare|
+||insert_date|origin|destination|start_date|end_date|train_type|price|train_class|fare|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |0|2019-04-11 21:49:46|MADRID|BARCELONA|2019-04-18 05:50:00|2019-04-18 08:55:00|AVE|68.95|Preferente|Promo|
 |1|2019-04-11 21:49:46|MADRID|BARCELONA|2019-04-18 06:30:00|2019-04-18 09:20:00|AVE|75.40|Turista|Promo|
