@@ -56,15 +56,21 @@ There are some problems in the dataset.
 ### Linear Regression with Ridge
 ![Ridge_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_result.png)
 Learning Curve
+![Ridge_curve](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_curve.png)
 ### Linear Regression with Lasso
 ![Lasso_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Lasso_result.png)
 Learning Curve
+![Lasso_curve](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Lasso_curve.png)
 ### Random Forest Regression
 ![Random_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/Random_result.png)
 Learning Curve
-
-
-
-
+![Random_curve](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/Random_curve.png)
+### Comparation
+||LR with Ridge|LR with Lasso|Random Forest|
+| --- | --- | --- | --- |
+|MSE|129.67215|129.68961|90.71796|
+|R square|0.78991|0.78988|0.85302|
+|Train score|0.78541|0.78540|0.97121|
+|Test score|0.78991|0.78988|0.85302|
 
 
