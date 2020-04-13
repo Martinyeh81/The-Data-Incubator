@@ -48,7 +48,7 @@ There are some problems in the dataset.
 ### Linear Regression
 ### Feature selection
 ##### Ridge
-
+![Ridge_coef](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
 ##### Lasso
 
 
