@@ -32,6 +32,7 @@ There are some problems in the dataset.
 2. Categorical: origin, destination, train type, train_class and fare.
 3. Missing data: price, train_class and fare. 
 4. The dataset which is too big is 7644664 rows x 52 columns. 
+
 ||Columns type|
 |---|---|
 |insert_date|datetime64[ns]|
