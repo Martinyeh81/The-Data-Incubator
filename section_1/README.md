@@ -27,8 +27,17 @@ This is the data of 5 rows.
 
 ## Problem
 
-There are some problems in the dataset. First, the features of inser_date, start_date and end_date are time series. Second, the features of origin, destination, train type, train_class and fare are categorical. Third, there are missing data in the price, train_class and fare. Final, the dataset which is too big is 7644664 rows x 52 columns, so we have to spend a lot of time running the code. 
+There are some problems in the dataset. 
+1. Time series: inser_date, start_date and end_date are time series. 
+2. Categorical: origin, destination, train type, train_class and fare.
+3. Missing data: price, train_class and fare. 
+4. The dataset which is too big is 7644664 rows x 52 columns. 
 
-## Solution
+## Preprocessing
+### Large Data
+
+### Time Series
+
+### Cate
 
 
