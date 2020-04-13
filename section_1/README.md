@@ -34,7 +34,7 @@ There are some problems in the dataset.
 4. The dataset which is too big is 7644664 rows x 52 columns. 
 
 ## Preprocessing
-### Large Data
+### Number of Data
   We use train_test_split from scikit- learn to decrease the sample because the dataset is too large, so we use 10% of dataset to be trained. Moreover, we split datasets, which Training set is 90% of dataset and testing data is 10% of dataset.
 ### Time Series
   1. We divid the feature of insert_date to the features of month, day, hour, minute and second. We don’t need the feature of year because all features of year are the same.
