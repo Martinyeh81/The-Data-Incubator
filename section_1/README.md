@@ -44,12 +44,24 @@ There are some problems in the dataset.
   Linear regression: one hot encoding
 ### Missing data
   We drop the data which has empty value because there are at least 70000000x52 data in the dataset, which doesn’t affect the result a lot. Moreover, for the price part, we fill the mean of price.
-## Result
-### Linear Regression
 ### Feature selection
 ##### Ridge
 ![Ridge_coef](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
 ##### Lasso
+![Lasso_coef](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Lasso_coef.png)
+##### Random Forest
+![Random_coef](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/Random_coef.png)
+
+## Result
+### Linear Regression with Ridge
+![Ridge_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_result.png)
+Learning Curve
+### Linear Regression with Lasso
+![Lasso_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Lasso_result.png)
+Learning Curve
+### Random Forest Regression
+![Random_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/Random_result.png)
+Learning Curve
 
 
 
