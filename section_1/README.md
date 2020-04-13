@@ -35,9 +35,10 @@ There are some problems in the dataset.
 
 ## Preprocessing
 ### Large Data
-  we use train_test_split from scikit- learn to decrease the sample because the dataset is too large, so we use 10% of dataset to be trained. Moreover, we split datasets, which Training set is 90% of dataset and testing data is 10% of dataset.
+  We use train_test_split from scikit- learn to decrease the sample because the dataset is too large, so we use 10% of dataset to be trained. Moreover, we split datasets, which Training set is 90% of dataset and testing data is 10% of dataset.
 ### Time Series
-  We drop the data which has empty value because there are at least 70000000x52 data in the dataset, which doesn’t affect the result a lot. Moreover, for the price part, we fill the mean of price.
+  1. We divid the feature of insert_date to the features of month, day, hour, minute and second. We don’t need the feature of year because all features of year are the same.
+  2. The features of start_date and end_date are time series, so we change the datetime to hour, which we calculate between start_date and end_date to represent the features of start_date and end_date because all of people spent less than one day taking the train.
 ### Categorical
   RandomForest: Directly convert into code
   Linear regression: one hot encoding
@@ -45,9 +46,10 @@ There are some problems in the dataset.
   We drop the data which has empty value because there are at least 70000000x52 data in the dataset, which doesn’t affect the result a lot. Moreover, for the price part, we fill the mean of price.
 ## Result
 ### Linear Regression
-#### Ridge
+### Feature selection
+##### Ridge
 
-#### Lasso
+##### Lasso
 
 
 
