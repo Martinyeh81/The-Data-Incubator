@@ -1,7 +1,7 @@
 # Predict the price of Renfe AVE ticket
 
 ## Description
-Our problem is to predict the price of Renfe AVE ticket, which is regression. In fact, the ticket of train is basically influenced by distance and time, but perhaps there are other reasons which affect the price of ticket. Moreover, there are no particle rules which compute the price. Thus, we want to understand how company predict the price of tickets. Furthermore, there are some problems in the dataset.
+  Our problem is to predict the price of Renfe AVE ticket, which is regression. In fact, the ticket of train is basically influenced by distance and time, but perhaps there are other reasons which affect the price of ticket. Moreover, there are no particle rules which compute the price. Thus, we want to understand how company predict the price of tickets. Furthermore, there are some problems in the dataset.
 
 ## Data
 
@@ -35,9 +35,22 @@ There are some problems in the dataset.
 
 ## Preprocessing
 ### Large Data
-
+  we use train_test_split from scikit- learn to decrease the sample because the dataset is too large, so we use 10% of dataset to be trained. Moreover, we split datasets, which Training set is 90% of dataset and testing data is 10% of dataset.
 ### Time Series
+  We drop the data which has empty value because there are at least 70000000x52 data in the dataset, which doesn’t affect the result a lot. Moreover, for the price part, we fill the mean of price.
+### Categorical
+  RandomForest: Directly convert into code
+  Linear regression: one hot encoding
+### Missing data
+  We drop the data which has empty value because there are at least 70000000x52 data in the dataset, which doesn’t affect the result a lot. Moreover, for the price part, we fill the mean of price.
+## Result
+### Linear Regression
+#### Ridge
 
-### Cate
+#### Lasso
+
+
+
+
 
 
