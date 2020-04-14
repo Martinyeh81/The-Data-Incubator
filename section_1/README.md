@@ -96,7 +96,7 @@ There are some problems in the dataset.
 |Train score|0.78541|0.78540|0.97121|
 |Test score|0.78991|0.78988|0.85302|
 
-##Conclusions
-1. The data doesn't complete yet, especially the linear regression because we can increase the degree to compute the best result. However, it is needed enough time and good computer to run the data.
+## Conclusions
+1. The data doesn't complete yet, especially the linear regression because we can increase the degree to compute the best result. However, we need enough time and good computer to run the data.
 2. Also for the Random Forest, we only try 10 and 100 trees. there are other parameter we can try.
 
