@@ -50,7 +50,20 @@ There are some problems in the dataset.
   We use train_test_split from scikit- learn to decrease the sample because the dataset is too large, so we use 10% of dataset to be trained. Moreover, we split datasets, which Training set is 90% of dataset and testing data is 10% of dataset.
 ### Time Series
   1. We divid the feature of insert_date to the features of month, day, hour, minute and second. We don’t need the feature of year because all features of year are the same.
+
+|Insert_date maximum date time|2019-04-11 21:49:46|
+|Insert_date minimum date time|2019-05-09 21:19:16|
+
+|Insert_date|Insert_month|Insert_day|Insert_hour|Insert_min|Insert_sec|
+|---|---|---|---|---|---|
+|2019-04-11 21:49:46|04|11|21|49|46|
+
   2. The features of start_date and end_date are time series, so we change the datetime to hour, which we calculate between start_date and end_date to represent the features of start_date and end_date because all of people spent less than one day taking the train.
+
+|start_date|end_date|start_end_hour|
+|---|---|---|
+|2019-04-18 05:50:00|2019-04-18 08:55:00|3.083333|
+  
 ### Categorical
   1. RandomForest: Directly convert into code
   2. Linear regression: one hot encoding
