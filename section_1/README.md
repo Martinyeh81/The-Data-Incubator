@@ -51,8 +51,9 @@ There are some problems in the dataset.
 ### Time Series
   1. We divid the feature of insert_date to the features of month, day, hour, minute and second. We don’t need the feature of year because all features of year are the same.
 
-|Insert_date maximum date time|---|2019-04-11 21:49:46|
-|Insert_date minimum date time|---|2019-05-09 21:19:16|
+|Insert_date minimum date time|Insert_date maximum date time|
+|---|---|
+|2019-04-11 21:49:46|2019-05-09 21:19:16|
 
 |Insert_date|Insert_month|Insert_day|Insert_hour|Insert_min|Insert_sec|
 |---|---|---|---|---|---|
