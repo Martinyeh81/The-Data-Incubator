@@ -79,6 +79,7 @@ There are some problems in the dataset.
 ![Random_coef](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/Random_coef.png)
 
 ## Result
+1000 samples
 ### Linear Regression with Ridge
 ![Ridge_result](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_result.png)
 ![Ridge_curve](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_curve.png)
