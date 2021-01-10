@@ -69,7 +69,7 @@ There are some problems in the dataset.
   1. RandomForest: Directly convert into code
   2. Linear regression: one hot encoding
 ### Missing data
-  We drop the data which has empty value because there are at least 70000000x52 data in the dataset, which doesn’t affect the result a lot. Moreover, for the price part, we fill the mean of price.
+  We drop the data which has empty value because there are at least 7000000x52 data in the dataset, which doesn’t affect the result a lot. Moreover, for the price part, we fill the mean of price.
 ### Feature selection
 ##### Ridge
 ![Ridge_coef](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
